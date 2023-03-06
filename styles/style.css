@@ -133,4 +133,40 @@ ul, ol {
     margin-bottom: 29px;
     color: #000;
   }
+}
+.skills {
+  padding: 91px 0 110px;
+}
+.skills__title {
+  margin-bottom: 49px;
+}
+.skills__subtitle {
+  margin-bottom: 83px;
+  text-align: center;
+}
+.skills__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 166px;
+}
+.item__image {
+  display: block;
+  margin: 0 auto 24px;
+}
+.item__name {
+  text-align: center;
+  max-width: 79px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin: 0 auto 36px;
+  min-height: 34px;
+}
+.item__inner {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
