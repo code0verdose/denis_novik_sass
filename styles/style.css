@@ -16,6 +16,10 @@ a {
   color: inherit;
 }
 
+ul, ol {
+  list-style-type: none;
+}
+
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -38,4 +42,19 @@ a {
   src: url("../../fonts/Gilroy-Medium.woff2") format("woff2"), url("../../fonts/Gilroy-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+}
+.header__link {
+  padding: 32px 0;
+  color: #828282;
+  transition: 0.3s;
+  display: block;
+}
+.header__link:hover {
+  color: #070707;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
