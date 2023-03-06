@@ -57,4 +57,28 @@ ul, ol {
 .header__link:hover {
   color: #070707;
   transition: 0.3s;
+}
+
+.home {
+  padding: 40px 0 104px;
+}
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 49px;
+}
+.home__title {
+  max-width: 125px;
+  font-size: 48px;
+  line-height: 59px;
+}
+.home__bio {
+  max-width: 156px;
+  margin-bottom: 7px;
+}
+.home__image {
+  display: block;
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

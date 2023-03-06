@@ -21,7 +21,34 @@
         </nav>
       </div>
     </header>
-    <!-- <main></main>
-  <footer></footer> -->
+    <main>
+      <section class="home">
+        <div class="container">
+          <div class="home__header">
+            <h1 class="home__title">Denis Novik</h1>
+            <p class="home__bio">UX | UI designer 24&nbsp;years old, Minsk</p>
+          </div>
+          <picture>
+            <source
+              class="home__image"
+              media="(max-width: 768px)"
+              srcset="
+                ./images/denis_novik_mobile.webp   1x,
+                ./images/denis_novik_mobile@2.webp 2x
+              "
+            />
+            <img
+              class="home__image"
+              srcset="
+                ./images/denis_novik.webp   1x,
+                ./images/denis_novik@2.webp 2x
+              "
+              alt="Author - Photo"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+    <!-- <footer></footer> -->
   </body>
 </html>
