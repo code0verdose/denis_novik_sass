@@ -101,8 +101,36 @@ ul, ol {
   }
   .home__title {
     margin-bottom: 23px;
+    color: #000;
   }
   .home__bio {
     color: #090909;
+  }
+}
+.about {
+  padding: 120px 0 107px;
+  background: #F6F6F6;
+}
+.about__title {
+  margin-bottom: 17px;
+}
+.about__inner {
+  max-width: 485px;
+  margin: 0 auto;
+}
+.about__text {
+  text-align: center;
+}
+.about__text:not(:last-child) {
+  margin-bottom: 43px;
+}
+
+@media (max-width: 574px) {
+  .about {
+    padding: 81px 0 76px;
+  }
+  .about__title {
+    margin-bottom: 29px;
+    color: #000;
   }
 }/*# sourceMappingURL=style.css.map */
